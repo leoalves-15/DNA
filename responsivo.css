@@ -1,0 +1,28 @@
+@media (max-width: 900px){
+    #home {
+        background-position-x: 70vw ;
+    }
+    #home .container {
+        align-items: center;
+        text-align: center;
+    }
+    #home header a {
+        position: absolute;
+        bottom: 48px;
+        left : 50%;
+        transform: translatex(-50%);
+    }
+    #home #main {
+        align-items: center;
+    } 
+    .item{
+        overflow-x: scroll;
+    }
+}
+@media (max-width: 1124px){
+    #home .container .item li p{
+        font-size: 10px;
+        margin-left: -20px;
+        margin-top: -50px;
+    }
+}

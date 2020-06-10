@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: url('../arquivos/background.jpg') ;
+    background-size:cover;
+}
+#home{
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+#home .container{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#home header{
+    margin-top: 40px;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+#home header .icon{
+    margin-left: 25px;
+    cursor: pointer;
+}
+#home #wpp{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        top: 45%;
+        right: 0%;
+        z-index: 10000000;
+}
+h1{
+    font-family: 'Muli', sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 37px;
+    font-weight: bold;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif; 
+    color : white;
+    font-size: 15px;
+    margin: 17px; 
+}
+#home .container #main{
+  flex:0.7;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#home #main .mainh2, .mainh1{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+#home .container #main #btn {
+    margin-top: 20px;
+    background-color: #b69268;
+    width: 260px;
+    height: 33px;
+    position: relative;  
+    cursor: pointer;
+}
+#home .container #main #btn #agat {
+    position: absolute;
+    margin-top: 6px; 
+    text-align: center;
+    margin-right: 15px;
+}
+.item{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    bottom: 0px;
+    width: 80%;
+    position: fixed;
+}
+#home .container .item li{
+    bottom: 0px; /*verificar isso daqui, coloquei o 0 ainda ficou flutuando*/
+    background-color: rgba(0, 0, 0,0.3);
+    list-style: none;
+    height: 90px;
+    border: 1px solid rgba(209, 208, 209, 0.3);
+    border-bottom: 0px;
+    padding: 32px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+#home .container .item .itemli{
+    margin-top: -11px;
+}
+#home .container .item li span{
+    margin-top: 10px;
+    flex:1;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family:'Montserrat', sans-serif; 
+}
+#home .container .item li #ajuste{
+    padding: 0px;
+}
+#home .container .item li #ajuste1{
+    margin-top: 10px;
+}
+#home .container .item li #ajuste2{
+    margin-top: 0px;
+}
+#home .container .item li #ajuste3{
+    margin-top: 18px;
+}
+#home .container .item li p{
+    color:white;
+    margin-left: -60px;
+    margin-top: -40px;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+}
+#home .container .item li .separador, .separador1 {
+        position: relative;
+        z-index: 10000000;
+}
+#home .container .item li .separador{
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    top: 20%;
+}
+#home .container .item li .separador1{
+    top: 35%;
+    width: 10px;
+    height: 10px;
+    left: 64%;
+}
